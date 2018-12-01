@@ -45,14 +45,15 @@ AnotherDataFrame["ColName"].loc[dataFrame["ColName"]<lowerBoundary] = lowerBound
 
 # Handling with categorical data ==============================================
 
-# Unification names of categorical data
+# Unificate names of categorical data
 
-# Make the whole string lower case
+# Whole string lower case
 [i.lower() for i in dataFrame["ColName"]]
-
-# Make the first letter capitalised
+# First letter capitalised
 [i.Capitalize() for i in dataFrame["ColName"]]
 
+
+# Convert categorical data into integers
 from sklearn.preprocessing import LabelEncoder
 target_feature = 'Some feature name'
 # Using encoder and transform
