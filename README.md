@@ -1,1 +1,1 @@
-Machine Learning course 
+# Machine learning resources for easy acces in one plase.
