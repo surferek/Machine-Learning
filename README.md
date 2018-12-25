@@ -1,1 +1,1 @@
-# Machine learning resources for easy acces in one plase.
+# Machine learning resources for easy access in one plase.
